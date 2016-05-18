@@ -1,0 +1,12 @@
+[diff "cj"]
+	command = _cj-git-tkdiff
+[user]
+	signingkey = 1FE692DA
+	email = ch@christianjaeger.ch
+[merge]
+	conflictstyle = diff3
+	renameLimit = 2000
+[core]
+	excludesfile = /root/.gitignore_global
+[credential]
+	username = pflanze
