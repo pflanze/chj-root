@@ -25,7 +25,7 @@ cdnewdir() {
 };
 mvcdnewdir() {
     if [ "$#" -gt 1 ]; then
-        mvnewdir "$@" && cd "${!#}"   # ${!#}: Tip 16Nov02 1544 von #bash
+        mvnewdir "$@" && cd "${!#}"
     else
         echo At least two arguments expected
     fi
